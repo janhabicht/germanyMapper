@@ -248,11 +248,12 @@
   fill: #cccccc;
   stroke: #ffffff;
   stroke-width: 0.5;
-  z-index:1;
+  z-index: 1;
+  transition: all 0.2s;
 }
-.st0:hover{
-  stroke: #f00fff;
-  z-index:2;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+.st0:hover {
+  fill: #5083ac;
+  z-index: 2;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 </style>
